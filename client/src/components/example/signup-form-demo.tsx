@@ -26,7 +26,7 @@ export default function SignupFormDemo() {
     };
     try {
       const response = await axios.post(
-        'https://wellness-server-vwm2.onrender.com/api/auth/register',
+        'http://localhost:5000/api/auth/register',
         {
           username: username.value,
           email: email.value,
