@@ -37,13 +37,13 @@ This project is a Wellness Retreat Webpage that allows users to browse and book 
 
 2. Install backend dependencies:
     ```bash
-    cd backend
+    cd server
     npm install
     ```
 
 3. Install frontend dependencies:
     ```bash
-    cd ../frontend
+    cd ../client
     npm install
     ```
 4. Set up a cloud database:
