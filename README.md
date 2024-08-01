@@ -12,7 +12,7 @@ This project is a Wellness Retreat Webpage that allows users to browse and book 
 
 ## Live Link
 - To access the live project, go [here](https://wellness-client.vercel.app/).
-
+> Note: Initial load times can be longer as the `FREE` tier of `Render` spins down with inactivity and can delay requests upto 50 seconds.
 ## Features
 
 - **User Authentication**: Users can register and log in using custom forms.
