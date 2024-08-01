@@ -19,7 +19,6 @@ export default function LoginForm() {
     const { toast } = useToast();
     const dispatch = useDispatch<AppDispatch>()
 
-
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         const { username, password } = e.target as typeof e.target & {
@@ -57,7 +56,8 @@ export default function LoginForm() {
                     className: 'bg-green-500 text-black'
                 })
                 dispatch(setUser(userInfo))
-                window.location.replace('/')
+                window.location.href = '/'
+
             }
         } catch (error) {
             console.error('Login Error:', error)
